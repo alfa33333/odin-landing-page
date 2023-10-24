@@ -14,11 +14,26 @@ body {
 /* header section */
 .header {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:800px;
 }
 
 .logo {
     font-size: 24px;
     color: var(--empashis-white);
+}
+
+.hero {
+    display: flex;
+    width: 800px;
 }
 
 .hero > .text > h1{
@@ -37,6 +52,7 @@ body {
     margin:0 ;
     padding:0 ;
     list-style-type: none;
+    display:flex;
 }
 
 .hero > .text >button {
@@ -51,6 +67,8 @@ body {
     border-radius: 5px;
 }
 
-
+.hero > img {
+    background-color: aliceblue;
+}
 /*  */
 
