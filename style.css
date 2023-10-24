@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
     --empashis-white: #f9faf8;
     --dim-white: #e5e7eb;
+    --button-blue: #3882f6;
 }
 
 
@@ -26,9 +27,28 @@ body {
     font-weight: extra-bold;
 }
 
-.hero > .text > p {
+.hero > .text > p, .links > ul{
     color: var(--dim-white);
     font-size: 18px;
+}
+
+
+.links > ul {
+    margin:0 ;
+    padding:0 ;
+    list-style-type: none;
+}
+
+.hero > .text >button {
+    border: none;
+    background-color: var(--button-blue);
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    border-radius: 5px;
 }
 
 
