@@ -1,5 +1,7 @@
 :root {
+    font-family: 'Roboto', sans-serif;
     --empashis-white: #f9faf8;
+    --dim-white: #e5e7eb;
 }
 
 
@@ -23,6 +25,12 @@ body {
     font-size: 48px;
     font-weight: extra-bold;
 }
+
+.hero > .text > p {
+    color: var(--dim-white);
+    font-size: 18px;
+}
+
 
 /*  */
 
