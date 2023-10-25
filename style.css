@@ -3,7 +3,7 @@
     --empashis-white: #f9faf8;
     --dim-white: #e5e7eb;
     --button-blue: #3882f6;
-    --global-width: 1200px;
+    --global-width: 800px;
 }
 
 
@@ -34,7 +34,9 @@ body {
 
 .hero {
     display: flex;
-    width: var(--global-width);
+    max-width: var(--global-width);
+    box-sizing: border-box;
+    padding: 50px 0;
 }
 
 .hero > .text > h1{
@@ -70,6 +72,11 @@ body {
 
 .hero > img {
     background-color: aliceblue;
+    flex: 1 1 0;
+}
+
+.hero > .text {
+    flex: 1 1 0;
 }
 /*  */
 
