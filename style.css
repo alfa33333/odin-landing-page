@@ -90,6 +90,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .pics {
@@ -116,3 +117,5 @@ body {
     border-color: #3882f6;
     border-radius: 20px;
 }
+
+/* Middle section */
