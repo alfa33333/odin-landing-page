@@ -85,3 +85,28 @@ body {
 
 /*  top section */
 
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pics {
+    display: flex;
+    gap:20px;
+}
+
+.pics > .item {
+    width: 100px;
+}
+
+.pics > .item > p {
+    padding:0;
+    margin:0;
+}
+.pics > .item > img {
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100px;
+}
