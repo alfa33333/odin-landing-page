@@ -4,7 +4,8 @@
     --empashis-white: #f9faf8;
     --dim-white: #E5E7EB;
     --button-blue: #3882f6;
-    --global-width: 800px;
+    --global-width: 1000px;
+    --secundary-width: 800px;
 }
 
 
@@ -93,11 +94,13 @@ body {
 
 .pics {
     display: flex;
-    gap:20px;
+    justify-content: space-between;
+    gap: 20px;
+    width: var(--secundary-width);
 }
 
 .pics > .item {
-    width: 100px;
+    width: 150px;
 }
 
 .pics > .item > p {
@@ -108,5 +111,8 @@ body {
     padding:0;
     margin:0;
     width: 100%;
-    height: 100px;
+    height: 150px;
+    border: 5px solid;
+    border-color: #3882f6;
+    border-radius: 20px;
 }
