@@ -36,18 +36,20 @@ body {
     display: flex;
     max-width: var(--global-width);
     box-sizing: border-box;
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 .hero > .text > h1{
     color: var(--empashis-white);
     font-size: 48px;
     font-weight: extra-bold;
+    margin: 0;
 }
 
 .hero > .text > p, .links > ul{
     color: var(--dim-white);
     font-size: 18px;
+    margin: 0;
 }
 
 
@@ -66,7 +68,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 0;
+    margin: 10px 0px;
     border-radius: 5px;
 }
 
