@@ -147,9 +147,8 @@ blockquote {
 }
 
 .quote {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
     width: var(--secundary-width);
     
