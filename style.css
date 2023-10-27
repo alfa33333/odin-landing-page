@@ -67,7 +67,7 @@ body {
     gap: 20px;
 }
 
-.hero > .text >button {
+button {
     border: none;
     background-color: var(--button-blue);
     color: white;
