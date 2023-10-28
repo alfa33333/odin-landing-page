@@ -8,10 +8,11 @@
     --secundary-width: 800px;
 }
 
-h1 {
+h1,h2,h3,p {
     margin: 0;
     padding: 0;
 }
+
 
 body {
     padding: 0;
@@ -159,4 +160,32 @@ blockquote {
     text-align: end;
     font-weight: bold;
     font-size: 20px;
+}
+
+/* Bottom */
+
+.bottom {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    background-color: var(--button-blue);
+    width: var(--global-width);
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.banner{
+    display: flex;
+    width: var(--secundary-width);
+    justify-content: space-between;
+}
+
+.bottom > .container > .banner > button {
+    border: 2px solid black;
+    border-color: var(--dim-white);
 }
