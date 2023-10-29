@@ -198,3 +198,11 @@ blockquote {
     border: 2px solid black;
     border-color: var(--dim-white);
 }
+
+/* footer */
+
+footer {
+    background-color: var(--background-black);
+    color: var(--dim-white);
+    text-align: center;
+}
